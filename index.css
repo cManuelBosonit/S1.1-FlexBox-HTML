@@ -1,0 +1,87 @@
+.contenedorPrincipal{
+    padding: 0.5rem;
+    height: 100%;
+    width: 100%
+}
+.contenedorUno{
+    padding: 0.5rem;
+}
+.cajaContenedorUno,
+.cajaContenedorDos,
+.cajaContenedorTres,
+.cajaContenedorCuatro,
+.cajaContenedorCinco{
+    width: 9rem;
+    height: 5rem;
+    background-color: red;   
+    padding: 0.5rem;
+}
+.cajaContenedorUno{
+    display: inline-block;
+}
+.contenedorDos{
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+}
+.cajaContenedorDos{
+    margin: 1px;
+}
+.contenedorTres{
+    padding: 0.5rem;
+}
+.cajaContenedorTres{
+    margin: 1px;
+    background-color: blue; 
+}
+.contenedorTresSuperior{
+    display: flex;
+    justify-content: left;
+    padding: 0.5rem;
+}
+.contenedorTresInferior{
+    justify-content: left;
+    padding: 0.5rem;
+}
+.contenedorCuatro{
+    display: flex;
+    justify-content: left;
+}
+.cajaContenedorCuatroPrimera, 
+.cajaContenedorCuatroSegunda,
+.cajaContenedorCuatroTercera{
+    height: 5rem;
+    padding: 0.5rem;
+    margin: 1px;
+    background-color: red;
+}
+.cajaContenedorCuatroPrimera{
+    width: 30%;
+    text-align: center;
+}
+.cajaContenedorCuatroSegunda, 
+.cajaContenedorCuatroTercera{
+    width: 15%;
+}
+.contenedorCinco{
+    display: flex;
+    justify-content: right;
+    padding: 0.5rem;
+}
+.cajaContenedorCincoPrimera, 
+.cajaContenedorCincoSegunda,
+.cajaContenedorCincoTercera{
+    height: 5rem;
+    padding: 0.5rem;
+    margin: 1px;
+    background-color: red;
+}
+.cajaContenedorCincoPrimera{
+    width: 4rem;
+}
+.cajaContenedorCincoSegunda{
+    width: 9rem;
+}
+.cajaContenedorCincoTercera{
+    width: 15rem;
+}
